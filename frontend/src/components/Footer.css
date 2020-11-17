@@ -1,0 +1,25 @@
+footer {
+  background-color: brown;
+  height: 60px;
+  color: #f1f1f1;
+  text-align: center;
+}
+footer .flex {
+  align-items: center;
+  justify-content: center;
+}
+
+/* SMALL SCREENS */
+@media (max-width: 500px) {
+  footer {
+    height: 90px;
+  }
+  footer .flex {
+    flex-direction: column;
+  }
+  footer .flex > div {
+    flex-direction: column;
+    margin: 10px 0px;
+    text-align: left;
+  }
+}

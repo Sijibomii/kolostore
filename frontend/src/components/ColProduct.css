@@ -1,0 +1,17 @@
+.col-product {
+  margin-bottom: 30px;
+  /* padding: 10px 0px; */
+}
+
+.col-product-image img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+}
+.col-product-text {
+  display: flex;
+  flex-direction: column;
+}
+.col-product-text h4 {
+  margin-bottom: 10px;
+}

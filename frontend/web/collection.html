@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./collection.css">
+  <title>Men</title>
+</head>
+
+<body>
+  <header>
+    <div class="top-nav flex">
+      <h4 class="sm">Meet F-tops our latest new cool shoes!</h4>
+      <a href="#" class="btn btn-top">Pre Order Here!</a>
+    </div>
+    <div class="navbar">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="menu-b">
+          <div class="menu-top">
+            <div >
+              <div class="side-men" id="menu-men">
+                <h4>Men</h4>
+                <i class="fas fa-plus show"id='icon-inner-men-plus' ></i>
+                <i class="fas fa-minus none" id='icon-inner-men-minus' ></i>
+              </div>
+              <ul class="none inner-menu" id="men-inner">
+                <li> Shop All</li>
+                <li>Best Sellers</li>
+                <li>T shirts</li>
+                <li>Hats</li>
+                <li>Pants</li>
+                <li>Shoes</li>
+              </ul> 
+            </div>
+            <div  >
+              <div class="side-men" id="menu-women">
+                <h4>Women</h4>
+                <i class="fas fa-plus show" id='icon-inner-women-plus' ></i>
+                <i class="fas fa-minus none" id='icon-inner-women-minus'></i>
+              </div>
+              <ul class="none inner-menu"id="women-inner">
+                <li>Shop All</li>
+                <li>Best Sellers</li>
+                <li>Tees</li>
+                <li>Round Necks</li>
+                <li>Pants</li>
+                <li>Shoes</li>
+              </ul> 
+            </div>
+            <div class="side-men">
+              <h4>Contact Us</h4>
+              <i class="fas fa-plus show" ></i>
+              <i class="fas fa-minus none" ></i>
+            </div>
+          </div>
+          <div class="menu-below">
+            <div class="side-men below">
+              <h4>Cart</h4>
+            </div>
+            <div class="side-men below">
+              <h4>Login </h4>
+            </div>
+            <div class="side-men below">
+              <h4>Sign Up</h4>
+            </div>
+            <div class="side-men below">
+              <h4>Blog</h4>
+            </div>
+            <div class="side-men below">
+              <h4>Search</h4>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+        <div class="container flex">
+            <i class="fas fa-bars ham" id="nav-burger"></i> 
+            <h1 class="logo">KOLO STORES.</h1>
+            <nav>
+              <div class="ul">
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About Us</a></li>
+              </div>
+            </nav>
+            <nav class="nav-right">
+              <div class="ul ">
+                <li><a href="#"><i class="fas fa-book-open"></i> Blogs</a></li>
+                <li  onclick="openForm()" ><a href="#" id="search"> <i class="fas fa-search"></i> Search</a></li>
+                <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+              </div>
+            </nav>
+            <div class="nav-tab ul">
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Login</a></li>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-search"  onclick="openForm()" id="tab-search"></i>
+            </div>
+            <div class="nav-mobile">
+              <!-- -->
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-search"  onclick="openForm()" id="mobile-search"></i>
+            </div>
+        </div>
+        <div class="form-popup" id="myForm">
+          <form action="#" class="form-container">
+            <input type="text" placeholder="search for products  " >
+            <input type="button" value="" class="btnnn">
+          </form>
+        </div>
+  </header>
+    <div class="showcase"></div>
+    
+    <div class="collection-container">
+      <div class="collection-list">
+        <ul>
+          <li><a href="#">ALL</a></li>
+          <li><a href="#">Tees</a></li>
+          <li><a href="#">Crewnecks</a></li>
+          <li><a href="#">Hats</a></li>
+          <li><a href="#">Shoes</a></li>
+        </ul>
+      </div>
+      <div class="collection-product">
+        <div class="heading">
+          <ul>
+            <li >
+              <h4> Filters:</h4>
+            </li>
+            <li class="dropdown">
+              <h4> Colors <i class="fas fa-caret-down"></i>
+              </h4>
+              <div class="dropdown-content">
+                <a href="#">White</a>
+                <a href="#">Black</a>
+                <a href="#">Red</a>
+                <a href="#">Grey</a>
+                <a href="#">Blue</a>
+                <a href="#">Green</a>
+              </div>
+            </li>
+            <li class="dropdown"><h4>Sizes<i class="fas fa-caret-down"></i></h4> 
+              <div class="dropdown-content">
+                <a href="#">XS</a>
+                <a href="#">S</a>
+                <a href="#">M</a>
+                <a href="#">L</a>
+                <a href="#">XL</a>
+                <a href="#">XXL</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="products container grid">
+          <div class="col-product">
+            <div class="col-product-image">
+              <img src="./max-anderson-acCPKySN8Xc-unsplash.jpg" alt="">
+            </div>
+            <div class="col-product-text">
+              <h4>Face Mask</h4>
+              <h5>$ <span>30.00</span></h5>
+            </div>
+          </div>
+          <div class="col-product">
+            <div class="col-product-image">
+              <img src="./max-anderson-acCPKySN8Xc-unsplash.jpg" alt="">
+            </div>
+            <div class="col-product-text">
+              <h4>Face Mask</h4>
+              <h5>$ <span>30.00</span></h5>
+            </div>
+          </div>
+          <div class="col-product">
+            <div class="col-product-image">
+              <img src="./max-anderson-acCPKySN8Xc-unsplash.jpg" alt="">
+            </div>
+            <div class="col-product-text">
+              <h4>Face Mask</h4>
+              <h5>$ <span>30.00</span></h5>
+            </div>
+          </div>
+          <div class="col-product">
+            <div class="col-product-image">
+              <img src="./max-anderson-acCPKySN8Xc-unsplash.jpg" alt="">
+            </div>
+            <div class="col-product-text">
+              <h4>Face Mask</h4>
+              <h5>$ <span>30.00</span></h5>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+   
+    
+    <footer >
+      <div class="container flex">
+       <h4>&copy; KOLOSTORES. 2020, all rights reserved</h4>
+      </div>
+      
+    </footer>
+
+  <script>
+    window.onclick = function(event) {
+      if(document.getElementById("myForm").style.display == "block"){
+        if (event.target == document.getElementById('search') || event.target == document.getElementById('mobile-search') || event.target == document.getElementById('tab-search')){
+          if(event.target == document.getElementById('mobile-search') || event.target == document.getElementById('tab-search')){
+            openForm()
+          }
+        }else{    
+          document.getElementById("myForm").style.display = "none";
+      }      
+      }
+}
+
+function openForm() {
+      console.log('open')
+  document.getElementById("myForm").style.display = "block";
+}
+
+// function closeForm() {
+//   
+// }
+    var burger= document.getElementById('nav-burger');
+   burger.addEventListener('click', ()=> {
+      /* Set the width of the side navigation to 250px */
+    document.getElementById("mySidenav").style.width = "70vw";
+   })
+   
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    var men= document.getElementById('menu-men');
+    var women= document.getElementById('menu-women');
+    var men_inner=document.getElementById('men-inner');
+    var men_icon_plus=document.getElementById('icon-inner-men-plus')
+    var men_icon_minus=document.getElementById('icon-inner-men-minus')
+
+
+    var women_inner=document.getElementById('women-inner');
+    var women_icon_plus=document.getElementById('icon-inner-women-plus')
+    var women_icon_minus=document.getElementById('icon-inner-women-minus')
+    men.addEventListener('click',()=>{
+    if(men_inner.classList.contains('none')){
+      men_inner.classList.toggle('none');
+      men_inner.classList.add('show');
+      if(men_icon_plus.classList.contains('show') && men_icon_minus.classList.contains('none')){
+        men_icon_plus.classList.toggle('show');
+        men_icon_plus.classList.add('none');
+        men_icon_minus.classList.toggle('none');
+      men_icon_minus.classList.add('show');
+      }
+    }
+    else{
+      men_inner.classList.toggle('show');
+      men_inner.classList.add('none')
+      if(men_icon_plus.classList.contains('none') && men_icon_minus.classList.contains('show')){
+        men_icon_minus.classList.toggle('show');
+        men_icon_minus.classList.add('none');
+        men_icon_plus.classList.toggle('none');
+        men_icon_plus.classList.add('show');
+      }
+    }
+    })
+    women.addEventListener('click',()=>{
+      if(women_inner.classList.contains('none')){
+      women_inner.classList.toggle('none');
+      women_inner.classList.add('show');
+      if(women_icon_plus.classList.contains('show') && women_icon_minus.classList.contains('none')){
+        women_icon_plus.classList.toggle('show');
+        women_icon_plus.classList.add('none');
+        women_icon_minus.classList.toggle('none');
+      women_icon_minus.classList.add('show');
+      }
+    }
+    else{
+      women_inner.classList.toggle('show');
+      women_inner.classList.add('none')
+      if(women_icon_plus.classList.contains('none') && women_icon_minus.classList.contains('show')){
+        women_icon_minus.classList.toggle('show');
+        women_icon_minus.classList.add('none');
+        women_icon_plus.classList.toggle('none');
+        women_icon_plus.classList.add('show');
+      }
+    }
+    })
+  </script>
+</body>
+</html>

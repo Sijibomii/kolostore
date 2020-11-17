@@ -1,0 +1,177 @@
+.showcase.collection {
+  background: url("./keagan-henman-xPJYL0l5Ii8-unsplash\ \(1\).jpg") no-repeat
+    center center/cover;
+  height: 80vh;
+  margin-top: -80px;
+  width: 100%;
+}
+.products.collection {
+  margin-top: -30px;
+}
+.collection-container {
+  padding: 15px;
+  padding-top: 10px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 5px;
+  display: flex;
+}
+.collection-list ul {
+  padding: 10px 0px;
+}
+.collection-list ul li {
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.collection-product {
+  margin-left: 75px;
+}
+
+.collection-product .heading ul {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.collection-product .heading ul li {
+  /* display: flex; */
+  padding: 30px;
+  padding-top: 0px;
+  cursor: pointer;
+}
+.dropdown h4 i {
+  margin-left: 10px;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.heading ul li {
+  align-items: center;
+  justify-content: center;
+}
+.heading ul li h4 {
+  padding: 10px;
+}
+/* .product-image {
+  padding: 20px 0px;
+} */
+.col-products.collection {
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-top: -25px;
+}
+.col-products.collection .product {
+  margin-bottom: 30px;
+  /* padding: 10px 0px; */
+}
+
+.col-products.collection .product a .product-image img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .showcase.collection {
+    height: 60vh;
+  }
+  .collection-container {
+    padding: 0px;
+    margin: 0px 60px;
+  }
+  .products.collection {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* TABLETS */
+@media (max-width: 768px) {
+  .products.collection {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .collection-container {
+    flex-direction: column;
+  }
+  .collection-list ul {
+    display: flex;
+  }
+  .collection-list ul li {
+    padding: 0px 30px;
+    padding-top: 20px;
+  }
+  .collection-product {
+    margin-left: 0px;
+  }
+  .heading ul {
+    margin-left: -25px;
+  }
+}
+/* SMALL SCREENS */
+@media (max-width: 500px) {
+  .products.collection {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 0px;
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .collection-list ul {
+    margin-left: -40px;
+  }
+  .collection-list ul li {
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .heading ul {
+    padding: 0px !important;
+    margin-bottom: 20px;
+    margin-left: -55px;
+  }
+  .heading ul li {
+    padding: 5px;
+  }
+  .dropdown h4 i {
+    margin-left: 4px;
+  }
+  .collection-product .heading ul li {
+    padding: 20px;
+    padding-top: 0px;
+    cursor: pointer;
+  }
+}
+/* EXTRA SMALL SCREENS */
+@media (max-width: 350px) {
+  .collection-list ul {
+    margin-left: -60px;
+  }
+  .collection-product .heading ul li {
+    padding: 10px;
+    padding-top: 0px;
+    cursor: pointer;
+  }
+}
